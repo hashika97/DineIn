@@ -50,8 +50,9 @@ const deleteAll = () =>{
 }
     return (
         <div>
-         <MenuHeader/>
+         
          <Filters/>
+         <MenuHeader/>
         {
             isUser &&
             <div className = "delete-all">

@@ -43,6 +43,7 @@ function Admin() {
         <input 
         type="email" 
         name="email" 
+        className="Login-App-Username"
         required 
         placeholder="Email" 
         value={admin.email}
@@ -57,6 +58,7 @@ function Admin() {
         <input 
         type="password" 
         name="password" 
+        className="Login-App-Password"
         required 
         placeholder="Password" 
         value={admin.password}

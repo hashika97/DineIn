@@ -66,12 +66,12 @@ const removeMenu = id =>{
                         <div className="flex">
                         <h3 className = "menu-item-price">Rs: {menu.price*menu.quantity}</h3>
                         <div>
-                            <button onClick={()=> decrement(menu._id)}> - </button>
-                            <span>{menu.quantity}</span>
-                            <button onClick={()=> increment(menu._id)}> + </button>
+                            <button className="left" onClick={()=> decrement(menu._id)}> - </button>
+                            <span className="lefts">{menu.quantity}</span>
+                            <button className="lefts" onClick={()=> increment(menu._id)}> + </button>
                         </div>
                         <div>
-                        <button onClick={()=> removeMenu(menu._id)}> X </button>
+                        <button className = "red" onClick={()=> removeMenu(menu._id)}> X </button>
                         </div>
                         </div>
                         </div>

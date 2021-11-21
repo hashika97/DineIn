@@ -7,9 +7,7 @@ const HomeFounderDetails = () => {
     return(
     
     <div className = "home-Founder-right-details">
-      <p >CSS can be tricky, and at times, frustrating to work with. One of the things I had trouble figuring out was how to change the opacity of a background without it also affecting the opacity of the text it contained.
-
-For instance, let's say you have a parent div wrapped around some text and you wanted to change the opacity of just the div. You'd think that it'd be something as simple as the below.</p>
+      <p > Dine In was the creation of Mr.David Fernando with the inspiration of the experience of his journey in many countries. He has given the best reciepes of many kind of foods with his practices and the experiments. Most of the reciepes have created by him with his own favour. Always we try to give the best taste anf fresh foods for our valuable customers. </p>
     </div>
 )
 }

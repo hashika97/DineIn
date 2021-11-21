@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import logo from './headers/icon/Logo.png';
+import crew from './headers/icon/3691638.jpg';
 import HomeCrewDetails from './HomeCrewDetail';
 
 const HomeCrew = () => {
@@ -9,7 +9,7 @@ const HomeCrew = () => {
     
     <div className = "flex-HomeFounder">
         <HomeCrewDetails/>
-        <img src={logo} className = "image-HomeFounder" alt=""/>
+        <img src={crew} className = "image-HomeFounder1" alt=""/>
         
     </div>
 )

@@ -17,7 +17,7 @@ function MenuItem({menu, isUser, deleteMenu, handleCheck}) {
            <h3 title={menu.title} className = "menu-item-name">{menu.title}</h3>
            <p className = "menu-item-detail">{menu.description}</p>
            <div className="flex">
-           <span className = "menu-item-price">{menu.price}</span>
+           <span className = "menu-item-price">Rs:{menu.price}</span>
           <BtnRender menu={menu} deleteMenu={deleteMenu}/>
            </div>
            </div>

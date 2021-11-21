@@ -34,11 +34,16 @@
 .ordered{
   position: absolute;
     top: 0px;
+    background-color: rgb(39, 106, 252);
+    border-radius: 3px;
+    color: rgb(255, 254, 254);
+    font-size: medium;
+    width: 200px;
     right: 70px;
 }
 .menu-container {
   position: relative;
-  height: 80px;
+  height: 40px;
 }
 
 /*Nav bar*/
@@ -185,6 +190,18 @@ margin-left: 20px;
 font-size: 12px;
 color: black;
 }
+.red
+{
+color: rgb(255, 255, 255);
+background-color: rgb(173, 5, 5);
+margin-left: 50px;
+}
+.left{
+  margin-left: 80px;
+}
+.lefts{
+  margin-left: 10px;
+}
 .Comment-commentbox{
   height: 100px;
   margin-top: 30px;
@@ -240,6 +257,13 @@ color: black;
   vertical-align: middle;
   margin-left: 100px;
 }
+.image-HomeFounder1{
+  height: 300px;
+  width: 350px;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 100px;
+}
 
 .home-Founder-right-details{
   background: rgba(255, 255, 255, 0.7);
@@ -249,7 +273,7 @@ color: black;
   border-radius: 0px;
   box-shadow:  0 2px 5px rgb(255, 254, 254);
   height: 300px;
-  Width: 550px;
+  Width: 500px;
   text-align: center;
   align-items: center;
   font-size: 20px; 
@@ -494,7 +518,7 @@ background-color: #0d0d0e;
 .menu-blocks{
   height: 150px;
   overflow: hidden;
-  width: 560px;
+  width: 570px;
   margin: 20px 30px 20px 60px;
   box-shadow:  0px 0px 10px rgb(172, 170, 170);border-color: 5px #0d0d0e;
   position: relative;
@@ -568,7 +592,7 @@ background-color: #0d0d0e;
 }
 .flex-btn{
   display: flex;
-  margin-left: 20px;
+  margin-left: opx;
   flex-wrap: wrap; 
 }
 .order-btn1{
@@ -803,7 +827,7 @@ background-color: #0d0d0e;
 
 .delete-all{
   text-align: right;
-  margin: 20px;
+  margin: 10px;
 }
 .delete-all input{
   height: 25px;

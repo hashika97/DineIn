@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import logo from './headers/icon/Logo.png';
+import vegetables from './headers/icon/5502254.jpg';
 import HomeIngredient01Details from './HomeIngredientsDetails01';
 
 const HomeIngredient01 = () => {
@@ -9,7 +9,7 @@ const HomeIngredient01 = () => {
     
     <div className = "flex-HomeFounder">
          <HomeIngredient01Details/>
-        <img src={logo} className = "image-HomeFounder" alt=""/>
+        <img src={vegetables} className = "image-HomeFounder1" alt=""/>
        
     </div>
 )
